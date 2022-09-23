@@ -1,0 +1,6 @@
+name: bison-lab-notebooks
+channels:
+  - default
+dependencies:
+  - jupyter=1.0.0
+  - python=3.10
