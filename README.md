@@ -25,7 +25,7 @@ Once Conda is installed, we can create a conda environment called `bison-lab` in
 conda env create -f environment.yml
 ```
 
-**Before running any code***, activate this conda environment:
+**Before running any code** activate this conda environment:
 
 ```bash
 conda activate bison-lab
