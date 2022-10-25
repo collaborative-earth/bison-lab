@@ -1,0 +1,22 @@
+name: bison-lab
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.10
+  - pip=22.3
+  - numpy
+  - scipy
+  - matplotlib
+  - ipython=8.5
+  - jupyter
+  - jupyterlab
+  - earthengine-api
+  - black=22.10.0
+  - flake8=5.0.4
+  - isort=5.10.1
+  - nbstripout=0.6.1
+  - pre-commit=2.20
+  - nbQA=1.5.3
+  - pip:
+    - -e .  # bison-lab package
