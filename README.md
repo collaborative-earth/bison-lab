@@ -4,6 +4,8 @@ All analysis code related to the Bison Lab project at Earthshot Institute.
 
 ## Getting Started
 
+### Prerequisites
+* An Anaconda Python distribution is required as this simplifies the installation. Either `Miniconda` or `Conda` are suitable: please follow the [conda installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 ### Setup
 
@@ -17,19 +19,22 @@ git clone git@github.com:earthshot-institute/bison-lab.git
 git clone https://github.com/earthshot-institute/bison-lab.git
 ```
 
-An Anaconda Python distribution is required as this simplifies the installation. Either `Miniconda` or `Conda` are suitable: please follow the [conda installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+Create a Conda (see prerequisites above if you don't have Conda installed) environment called `bison-lab` in which we can install all libraries/dependencies for this repository:
 
-Once Conda is installed, we can create a conda environment called `bison-lab` in which we can install all libraries/dependencies for this repository:
-
+1. CD into the bison-lab project directory you cloned from GitHub.
+2. Run the Conda command to create an environment based on the environment.yml configuration file in the bison-lab project directory. 
 ```bash
 conda env create -f environment.yml
 ```
 
-**Before running any code** activate this conda environment:
+3. **Before running any code** activate this conda environment:
 
 ```bash
 conda activate bison-lab
 ```
+
+:tada: **You're ready to go!** :tada:
+
 
 The environment can be deactivated with:
 
