@@ -26,8 +26,12 @@ Create a Conda (see prerequisites above if you don't have Conda installed) envir
 ```bash
 conda env create -f environment.yml
 ```
+3. (Optional) If you want to use the `Jupyter Lab` interface, install the widget to enable leaflet maps
+```bash
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet
+```
 
-3. **Before running any code** activate this conda environment:
+4. **Before running any code** activate this conda environment:
 
 ```bash
 conda activate bison-lab
