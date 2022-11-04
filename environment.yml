@@ -8,6 +8,7 @@ dependencies:
   - numpy
   - scipy
   - matplotlib
+  - pandas
   - ipython=8.5
   - jupyter
   - jupyterlab
