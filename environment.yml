@@ -18,5 +18,9 @@ dependencies:
   - nbstripout=0.6.1
   - pre-commit=2.20
   - nbQA=1.5.3
+  - eemont
+  - ipyleaflet
+  - nodejs
   - pip:
     - -e .  # bison-lab package
+    - geemap # conda version is broken
