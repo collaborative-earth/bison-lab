@@ -2,6 +2,12 @@
 
 All analysis code related to the Bison Lab project at Earthshot Institute.
 
+Code can run online using Binder
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthshot-institute/bison-lab/main)
+
+or locally using the setup below
+
 ## Getting Started
 
 ### Prerequisites
