@@ -105,7 +105,12 @@ def _add_cloud_and_shadow_bands_and_scale(
     not_cloud_shadow = img.select("cloudmask").Not()
 
     # Subset reflectance bands and update their masks, return the result
-    return img.select("B.*").updateMask(not_cloud_shadow).divide(10000)
+    return (
+        img.select("B.*")
+        .updateMask(not_cloud_shadow)
+        .divide(10000)
+        .copyProperties(img, ["system:time_start"])
+    )
 
 
 def s2_sr_harmonized(

@@ -22,6 +22,7 @@ dependencies:
   - eemont
   - ipyleaflet
   - nodejs
+  - seaborn
   - pip:
     - -e .  # bison-lab package
     - geemap # conda version is broken
