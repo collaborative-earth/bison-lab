@@ -9,6 +9,9 @@ dependencies:
   - scipy
   - matplotlib
   - pandas
+  - geopandas
+  - fiona
+  - shapely
   - ipython=8.5
   - jupyter
   - jupyterlab
@@ -25,4 +28,4 @@ dependencies:
   - seaborn
   - pip:
     - -e .  # bison-lab package
-    - geemap # conda version is broken
+    - geemap>=18.1  # conda version is broken
