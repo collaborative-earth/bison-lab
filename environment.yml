@@ -28,4 +28,4 @@ dependencies:
   - seaborn
   - pip:
     - -e .  # bison-lab package
-    - geemap>=18.1  # conda version is broken
+    - geemap==0.19.0  # conda version is broken
