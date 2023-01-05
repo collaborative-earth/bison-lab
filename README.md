@@ -62,6 +62,13 @@ pre-commit install
 
 Now on every commit, the hooks configured in the .pre-commit-config.yaml will be executed.
 
+### Updates to Conda environment
+
+If new Python libraries/packages are required, they should be added to the `environment.yml` file. These new packages are only installed with the creation of a new environment, however, you can update your existing Conda environment using this command:
+
+```bash
+conda env update --prefix ./bison-lab --file environment.yml --prune
+```
 
 ### Uninstall
 
