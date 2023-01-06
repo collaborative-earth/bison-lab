@@ -27,24 +27,24 @@ git clone https://github.com/earthshot-institute/bison-lab.git
 
 Create a Conda (see prerequisites above if you don't have Conda installed) environment called `bison-lab` in which we can install all libraries/dependencies for this repository:
 
-1. CD into the bison-lab project directory you cloned from GitHub.
+1. Change directory into the bison-lab project directory you cloned from GitHub with `cd bison-lab`.
 2. Run the Conda command to create an environment based on the environment.yml configuration file in the bison-lab project directory.
 ```bash
 conda env create -f environment.yml
-```
-3. (Optional) If you want to use the `Jupyter Lab` interface, install the widget to enable leaflet maps
-```bash
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet
-```
+````
 
-4. **Before running any code** activate this conda environment:
+3. **Before running any code** activate this conda environment:
 
 ```bash
 conda activate bison-lab
 ```
 
-:tada: **You're ready to go!** :tada:
+4. (Optional) If you want to use the `Jupyter Lab` interface, first make sure the environment is activated (step 3), then install the widget to enable leaflet maps.
+```bash
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet
+```
 
+:tada: **You're ready to go!** :tada:
 
 The environment can be deactivated with:
 
