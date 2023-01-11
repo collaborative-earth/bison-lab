@@ -1,10 +1,10 @@
 # Bison Lab
 
-All analysis code related to the Bison Lab project at Earthshot Institute.
+All analysis code related to the Bison Lab project at Collaborative Earth.
 
 Code can run online using Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthshot-institute/bison-lab/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/collaborative-earth/bison-lab/main)
 
 or locally using the setup below
 
@@ -19,10 +19,10 @@ or locally using the setup below
 
 ```
 # with SSH key
-git clone git@github.com:earthshot-institute/bison-lab.git
+git clone git@github.com:collaborative-earth/bison-lab.git
 
 # or with username/password
-git clone https://github.com/earthshot-institute/bison-lab.git
+git clone https://github.com/collaborative-earth/bison-lab.git
 ```
 
 Create a Conda (see prerequisites above if you don't have Conda installed) environment called `bison-lab` in which we can install all libraries/dependencies for this repository:
