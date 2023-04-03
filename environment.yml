@@ -28,5 +28,5 @@ dependencies:
   - seaborn
   - pyarrow
   - pip:
+    - geemap==0.20.0  # conda version is broken
     - -e .  # bison-lab package
-    - geemap==0.19.0  # conda version is broken
