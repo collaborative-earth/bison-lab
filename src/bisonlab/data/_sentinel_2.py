@@ -139,3 +139,21 @@ def s2_sr_harmonized(
         )
 
     return s2.map(lambda img: mapper(img))
+
+
+def s2(
+    aoi,
+    start_date="2015-06-23",
+    end_date="2023-12-31",
+    cloud_filter=60,
+    ):
+    """Sentinel-2 surface reflectance"""
+    # Import and filter S2
+    s2 = (
+        ee.ImageCollection("COPERNICUS/S2")
+        .filterBounds(aoi)
+        .filterDate(start_date, end_date)
+        .filter(ee.Filter.lte("CLOUDY_PIXEL_PERCENTAGE", cloud_filter))
+    )
+
+    return s2
